@@ -13,7 +13,7 @@ const Navbar = ()=>{
                 <img className="icon-down" src="/images/down.png" alt="down-arrow"></img>
             </button>
             
-            <Link to="/" className="nav-logo h2">PRO ATHLETES INDIA</Link>
+            <Link to="/" className="nav-logo h2">A I S E</Link>
 
             <HashLink to="#footer" className="btn btn-dark">
                 CONTACT US

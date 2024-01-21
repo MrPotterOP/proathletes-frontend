@@ -9,11 +9,11 @@ const Footer = ()=>{
         <section id="footer">
             <div className="footer-conatiner box-dark flex">
                 <div className="footer-intro flex">
-                    <h1>PRO ATHLETES INDIA</h1>
+                    <h1>Atletas India Sports and Entertainment</h1>
 
                     <p>We have been working in the field of football for last 40 years as Shimla Sports Club. As a club we have produced many national and international players like Mushtaque Ali, Amit Kumar Singh, Dhirendra Kumar, Singh, Shammi Pal, Saket Singh, Amit Kumar, Poonam Chauhan, Mona Verma and many more.</p>
 
-                    <p>© All Rights Reserved @PROATHLETESINDIA</p>
+                    <p>© All Rights Reserved @AtletasIndiaSportsAndEntertainment</p>
                 </div>
 
                 <div className="footer-contact flex">
