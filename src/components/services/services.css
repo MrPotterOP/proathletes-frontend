@@ -1,0 +1,98 @@
+#services {
+    margin: 0 10px 40px 10px;
+}
+
+.services-container {
+    padding: 50px 20px;
+}
+
+.services-context {
+    margin: 0 0 20px 0;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.service {
+    height: 450px;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    margin: 0 0 20px 0;
+    padding: 22px 28px;
+
+    display: flex;
+    flex-direction: column;
+}
+.service h1 {
+    margin: 20px 0 0 0;
+}
+.gray-line {
+    margin: 15px 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--color-gray);
+}
+
+.service-img {
+    margin: auto 0 0 0;
+    width: 100%;
+    height: 160px;
+    border-radius: 40px;
+}
+
+.service-ad {
+    width: 100%;
+    height: 200px;
+}
+
+
+@media (min-width: 62em){
+    .service {
+        height: 500px;
+        width: 410px;
+    }
+    .services-context {
+        width: 410px;
+        height: max-content;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    .one {
+        grid-area: one;
+    }
+    .two {
+        grid-area: two;
+    }
+    .three {
+        grid-area: three;
+    }
+    .four {
+        grid-area: four;
+    }
+    .five {
+        grid-area: five;
+    }
+    .six {
+        grid-area: six;
+    }
+    .service-ad {
+        grid-area: ads;
+    }
+    .services-context {
+        grid-area: intro;
+    }
+    .services-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: .5fr .5fr .5fr .5fr .5fr;
+        row-gap: 25px;
+        place-items: center;
+        justify-content: center;
+        grid-template-areas: 
+        "intro three four"
+        "one three four"
+        "one five six"
+        "two five six"
+        "two ads ads"
+        ;
+    }
+}

@@ -1,0 +1,37 @@
+#footer {
+    margin: 0 10px 40px 10px;
+}
+
+.footer-conatiner {
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px;
+
+}
+
+.footer-intro {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-contact {
+    flex-direction: column;
+    gap: 20px;
+}
+.input-dark::placeholder {
+    color: var(--color-gray);
+}
+
+@media (min-width: 62em){
+    .footer-conatiner {
+        flex-direction: row;
+        gap: 80px;
+    }
+    .footer-intro {
+        width: 40%;
+        justify-content: space-between;
+    }
+    .footer-contact .input-dark {
+        width: 180%;
+    }
+}

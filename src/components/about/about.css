@@ -1,0 +1,87 @@
+#about {
+    margin: 0 10px 40px 10px;
+}
+
+.about-container {
+    display: grid;
+    /* grid-template-rows: .4fr .6fr .5fr .5fr; */
+    gap: 12px;
+}
+
+.who-are-we{
+    position: relative;
+    color: var(--color-white);
+    padding: 60px 20px;
+}
+.card-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    border-radius: 50px;
+}
+.who-are-we-context {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.our-vision, .our-service {
+    position: relative;
+    color: var(--color-white);
+    padding: 60px 20px;
+}
+
+.our-service {
+    color: var(--color-black);
+}
+
+.service-context {
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 62em){
+
+    .who-are-we {
+        grid-area: we;
+        min-height: 90vh;
+        display: flex;
+    }
+    .who-are-we-context {
+        place-content: end;
+    }
+    .our-vision {
+        grid-area: vision;
+    }
+    .vision-context {
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .our-service{
+        grid-area: service;
+
+    }
+    .our-legacy{
+        grid-area: legacy;
+
+    }
+
+    .service-context {
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .about-container {
+        grid-template-rows: .36fr .64fr;
+        grid-template-columns: .40fr .30fr .30fr;
+
+        grid-template-areas: 
+        "we vision vision"
+        "we service legacy"
+        ;
+    }
+}
+

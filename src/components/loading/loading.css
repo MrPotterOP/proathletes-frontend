@@ -1,0 +1,11 @@
+.loading-screen {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.load-gif {
+    width: 200px;
+}

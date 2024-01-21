@@ -1,0 +1,25 @@
+#quote {
+    margin: 0 10px 40px 10px;
+}
+
+.quote-container {
+    display: grid;
+    place-content: center;
+    position: relative;
+    color: var(--color-white);
+    min-height: 90vh;
+}
+
+.quote-text {
+    text-align: center;
+    padding: 0 20px;
+    line-height: 40px;
+}
+
+
+@media (min-width: 62em){
+    .quote-text {
+        padding: 0 80px;
+        line-height: 72px;
+    }
+}
