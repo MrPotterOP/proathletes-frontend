@@ -28,7 +28,7 @@
 .countries {
     display: flex;
     gap: 10px;
-    animation: roll 20s linear infinite;
+    animation: roll 22s linear infinite;
 }
 
 .country {
