@@ -24,7 +24,7 @@ const About = ()=>{
                         </div>
 
                         <p className="p2">
-                            We have been working in the field of football for last 40 years as Shimla Sports Club. As a club we have produced many national and international players like Mushtaque Ali, Amit Kumar Singh, Dhirendra Kumar, Singh, Shammi Pal, Saket Singh, Amit Kumar, Poonam Chauhan, Mona Verma and many more.
+                        We are experienced Sports Management professionals with well hands on experience in the field. We are here to boost Indian sports ecosystem, Fan engagement, opening gateways for Indian athletes to international clubs.
                         </p>
                     </div>
                 </div>
@@ -46,7 +46,8 @@ const About = ()=>{
                             </div>
 
                             <p className="p2">
-                                We have been working in the field of football for last 40 years as Shimla Sports Club. As a club we have produced many national and international players like Mushtaque Ali, Amit Kumar Singh, Dhirendra Kumar, Singh, Shammi Pal, Saket Singh, Amit Kumar, Poonam Chauhan, Mona Verma and many more.
+                            Develop sports culture in India and making sports a daily need rather than a lifestyle. <br></br>
+                            Our campaigns and different projects will be promoting the need of sports in everyday life. Also how sports is a pathway to a remarkable carrier. We will not only develop the sports culture but also will be supporting the athletes to become an Elite.
                             </p>
                         </div>
                 </div>
@@ -58,7 +59,7 @@ const About = ()=>{
                         </div>
 
                         <p className="p2 fw-md">
-                        We offer <span>world-class training</span> and infrastructure to our students. We have set up <span>football centres</span> for upcoming footballers across the country. We provide them with the best <span>coaching</span>, <span>equipment</span>, and <span>facilities</span>. We also <span>organise tournaments</span>, <span>camps</span>, and <span>workshops</span> to enhance their skills and exposure. We cater to all age groups and levels of proficiency.
+                        We offer <span>world-class training</span> and <span>infrastructure</span> to our students. We have set up sports centres in association with premium european clubs for upcoming youths across the country. We provide them with the <span>best coaching, equipment, and facilities</span>. We also organise <span>tournaments, camps, and workshops</span> to enhance their skills and exposure. We cater to all age groups and levels of proficiency.
                         </p>
 
                         <Link to="/" className="btn btn-primary-dark">VIEW ALL SERVICES
@@ -74,8 +75,8 @@ const About = ()=>{
                         </div>
 
                         <p className="p2 fw-md">
-                        We are not new to the field of football. We have been working in this domain for the last <span>40 years as Shimla Sports Club</span>. As a club, 
-                        <span>we have produced many national and international players who have made us proud</span>. We have also helped interested former footballers and sportspersons to get certified as coaches through AIFF and AFC license.
+                        <span>We have been there in the field since 10 years.</span> We have seen birth of many leagues across India and around the globe. We have been a part of those legendary leagues as well. We as individuals have been a part of those leagues and few still are.
+                        
                         </p>
                     </div>
                 </div>

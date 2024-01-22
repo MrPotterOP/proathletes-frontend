@@ -11,7 +11,7 @@ const Footer = ()=>{
                 <div className="footer-intro flex">
                     <h1>Atletas India Sports and Entertainment</h1>
 
-                    <p>We have been working in the field of football for last 40 years as Shimla Sports Club. As a club we have produced many national and international players like Mushtaque Ali, Amit Kumar Singh, Dhirendra Kumar, Singh, Shammi Pal, Saket Singh, Amit Kumar, Poonam Chauhan, Mona Verma and many more.</p>
+                    <p>We are a team of Youth Entrepreneurs who understands and feels the emotions of upcoming generation. We have worked around the world with top club franchises and organisations, Few are Juventus FC, Laliga , NBA , ATP tour ,Legends league cricket, Pro Kabaddi League, ISL ,IPL etc.</p>
 
                     <p>© All Rights Reserved @AtletasIndiaSportsAndEntertainment</p>
                 </div>
